@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .nav-list {
+            list-style: none;
+            background-color: aliceblue;
+            color: blue;
+        }
+        section {
+            height: 300px;
+        }
+        .main-section {
+            background-color: beige;
+            text-align: center;
+            padding: 20px;
+        }
+        .contacts-section {
+            background-color: rgb(236, 236, 96);
+            text-align: center;
+            padding: 20px;
+        }
+        .company-section {
+            background-color: rgb(28, 192, 204);
+            text-align: center;
+            padding: 20px;
+        }
+        .vacancies-section {
+            background-color: rgb(139, 28, 204);
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: green;
+        }
+        #heading {
+            color: red;
+        }
+        .heading {
+            color: blue;
+        }
+        .nav-list li {
+            display: inline-block;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div style="display: inline-block;">block 1</div>
+    <span style="display: block;">block 2</span>
+    <main>main</main>
+    <nav>nav</nav>
+    <header>header</header>
+    <section>section</section>
+    <footer>footer</footer> -->
+    <!-- приоритет -->
+    <!-- selector => class => id => style -->
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li>Главная</li>
+                <li>Контакты</li>
+                <li>О компании</li>
+                <li>Вакансии</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-section">
+        <h1 id="heading" class="heading" style="color: orange;">Главная</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quaerat consequuntur, quae, modi consectetur
+        incidunt, voluptate nostrum facilis dolor nemo voluptatem molestiae eius labore ad nihil quidem eveniet officiis
+        tempora?
+    </section>
+    <section class="contacts-section">
+        <h1>Контакты</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quaerat consequuntur, quae, modi consectetur
+        incidunt, voluptate nostrum facilis dolor nemo voluptatem molestiae eius labore ad nihil quidem eveniet officiis
+        tempora?
+    </section>
+    <section class="company-section">
+        <h1>О компании</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quaerat consequuntur, quae, modi consectetur
+        incidunt, voluptate nostrum facilis dolor nemo voluptatem molestiae eius labore ad nihil quidem eveniet officiis
+        tempora?
+    </section>
+    <section class="vacancies-section">
+        <h1>Вакансии</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quaerat consequuntur, quae, modi consectetur
+        incidunt, voluptate nostrum facilis dolor nemo voluptatem molestiae eius labore ad nihil quidem eveniet officiis
+        tempora?
+    </section>
+    <footer>
+        <ul class="nav-list">
+            <li>instagram</li>
+            <li>twitter</li>
+            <li>facebook</li>
+        </ul>
+    </footer>
+</body>
+</html>
